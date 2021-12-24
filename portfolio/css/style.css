@@ -95,6 +95,7 @@ li {
   line-height: 1.2;
   margin-right: 20px;
   letter-spacing: .05em;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .header-logo a {
@@ -146,6 +147,8 @@ li {
   justify-content: center;
   height: 85vh;
   text-align: center;
+  background: linear-gradient(-45deg, rgba(235, 230, 230, 0.8), rgb(150, 120, 82)),url(../img/pancakes.jpg);
+  background-size: cover;
 }
 
 .main-visual-inner {
@@ -153,11 +156,12 @@ li {
 }
 
 .main-visual-title {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: .1em;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .main-visual-subtitle {
   font-size: 20px;
@@ -172,11 +176,11 @@ li {
   max-width: 800px;
   margin: 0 auto;
 }
-.main-visual-img {
+/* .main-visual-img {
   width: 20%;
   margin-right: 30px;
   border-radius: 50%;
-}
+} */
 .main-visual-img img {
   border-radius: 50%;
 }
@@ -230,13 +234,13 @@ li {
   max-width: 180px;
   height:50px;
   text-align: center;
-  background-color: #9ec34b;
+  background-color: #4b9dc3;
   font-size: 16px;
   line-height: 52px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #9ec34b;
+  border: 2px solid #4b9dc3;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -325,7 +329,7 @@ li {
   font-weight: bold;
   padding: 12px 24px;
   border-radius: 4px;
-  background-image: linear-gradient(-90deg, #89eb75, #f1e753);
+  background-image: linear-gradient(-90deg, #000, #53f1e4);
   transition: .5s;
   background-size: 200%;
 }
@@ -564,6 +568,7 @@ li {
   .main-visual-text p:not(:last-child) {
     margin-bottom: 20px;
   }
+  
 
   /* Works */
   .works-name {
