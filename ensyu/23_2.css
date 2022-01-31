@@ -35,7 +35,7 @@ dd {
 input[type="text"],textarea {
     border: 1px solid #999;
     width: 100%;
-    *padding: 10px;
+    padding: 10px;
     border-radius: 5px;
 }
 .job {
@@ -64,7 +64,7 @@ input[type="submit"] {
     font-size: 14px;
 }
 @media screen and (max-width: 768px) {
-    .fornItem {
+    .formItem {
         display: block;
     }
     dt {
